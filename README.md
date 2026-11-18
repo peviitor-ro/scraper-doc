@@ -25,6 +25,7 @@ Peviitor aggregates open positions from company career pages so job seekers can 
 | 14 | [Git workflow](14-git-workflow.md) |
 | 15 | [Best practices and common pitfalls](15-best-practices.md) |
 | 16 | [GDPR and data minimization](16-gdpr-data-minimization.md) |
+| 17 | [Scraper examples](17-scraper-examples.md) |
 
 If you are in a hurry, read [00 — Introduction](00-introduction.md), [02 — Data model](02-data-model.md), [09 — Source of truth](09-source-of-truth.md), [13 — Testing and verification](13-testing-verification.md), and [16 — GDPR](16-gdpr-data-minimization.md).
 
