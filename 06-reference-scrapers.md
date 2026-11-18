@@ -1,0 +1,1 @@
+in peviitor-scrapers github organization we have multiple scrapers and we can use them to learn how they were built and what is the structure of a scraper

@@ -1,0 +1,1 @@
+we are targeting jobs that can be performed from Romania geografical place

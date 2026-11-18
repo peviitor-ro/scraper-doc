@@ -1,0 +1,1 @@
+To be able to push data to peviitor.ro search engine we need to know the structure of the information. The structure is documented in github.com in peviitor-ro organization peviitor_core repo, readme.md file where we can read job model and company model.

@@ -1,0 +1,1 @@
+We want to create a scraper for a company to push it's open positions / jobs into peviitor.ro search engine
