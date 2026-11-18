@@ -1,19 +1,21 @@
-# 11 — Building a Scraper: Step-by-Step
+# 11 — Building a Scraper: Step by Step
 
 This is a practical tutorial for volunteers. Follow these steps to build your first scraper.
 
 ## Prerequisites
 
 - Python 3 installed on your machine.
-- Access to the company's career page or jobs API.
-- The company's CIF/CUI and legal name (from cuiscan.ro / cuifirma.ro).
-- An AI assistant (opencode.ai or kilo.ai) to help you write code.
+- Access to the company's careers page or jobs API.
+- The company's CIF/CUI and legal name from [cuiscan.ro](https://cuiscan.ro) or [cuifirma.ro](https://cuifirma.ro).
+- An AI assistant such as [opencode.ai](https://opencode.ai) or [kilo.ai](https://kilo.ai), if you want help writing code.
+
+Replace `~/scrapers` below with whatever local folder you use for projects.
 
 ## Step 1: Create the repository
 
 ```bash
-mkdir /home/sebi/scrapers/my-company-scraper
-cd /home/sebi/scrapers/my-company-scraper
+mkdir -p ~/scrapers/my-company-scraper
+cd ~/scrapers/my-company-scraper
 git init
 ```
 
@@ -22,60 +24,59 @@ Create `README.md` with one line describing what the scraper does.
 ## Step 2: Look up the company
 
 Use cuiscan.ro or cuifirma.ro to find:
-- CIF/CUI (e.g. `12345678`)
-- Legal name (e.g. `MY COMPANY SRL`)
 
-Create the company in peviitor core if it does not exist (see 10-company-creation.md).
+- CIF/CUI, for example `12345678`.
+- Legal name, for example `EXAMPLE COMPANY S.R.L.`.
+
+Create the company in peviitor core if it does not exist; see [10 — Creating a company](10-company-creation.md).
 
 ## Step 3: Write the scraper
 
 Create `scraper.py`. Your scraper needs to:
 
-1. **Fetch** jobs from the company's career page (source of truth for jobs).
-2. **Extract** for each job: **only** the job title and the link to the job description.
-3. **Do NOT capture**: job description text, CVs, candidate personal data, or any GDPR-related information (see 16-gdpr-data-minimization.md).
+1. **Fetch** jobs from the company's careers page (the source of truth for jobs).
+2. **Extract** the required `title` and canonical job `url` for each job.
+3. **Do not capture** job description text, CVs, candidate personal data, or any GDPR-related information. See [16 — GDPR and data minimization](16-gdpr-data-minimization.md).
 4. **Validate**:
    - Title is present and not a placeholder.
-   - URL is a real employer link (no `&`, no tracking hosts, not a generic careers page).
-   - Company resolves to a CIF/CUI in peviitor core.
+   - URL points to the real employer job page, with no tracking params or unescaped `&`. See [15 — Best practices](15-best-practices.md).
+   - Company resolves to a verified CIF/CUI.
 5. **Push** valid jobs to `https://api.peviitor.ro/v1/scraper/jobs/upload/`.
-6. **Save** progress so you can resume if interrupted.
-7. **Record** uploaded URLs to an audit file.
+6. **Save** progress in `data/state.json` so you can resume if interrupted.
+7. **Record** uploaded URLs in `data/uploaded_urls.txt` for audit.
 
-Ask your AI assistant to help generate the initial code:
-
-> "Write a Python scraper that reads jobs from <source URL> and pushes them to https://api.peviitor.ro/v1/scraper/jobs/upload/"
+You can start from the template in [12 — Scraper template](12-scraper-template.md).
 
 ## Step 4: Test with a dry run
 
-Run your scraper in dry-run mode (if you built one) or manually push 1–5 jobs first. Check the API response.
+Run your scraper in dry-run mode if you built one, otherwise push only 1–5 jobs first. Check the API response and confirm the count matches what you sent.
 
 ## Step 5: Verify jobs appeared in peviitor
 
-After pushing, search peviitor to confirm your jobs are there:
-```
-GET https://api.peviitor.ro/v1/search/?q=<JOB-TITLE>&rows=5&page=1
+Search the API for your company or a specific job title:
+
+```bash
+curl "https://api.peviitor.ro/v1/search/?q=EXAMPLE%20COMPANY&rows=50&page=1"
+curl "https://api.peviitor.ro/v1/search/?q=JOB%20TITLE&rows=10&page=1"
 ```
 
-Or search by your company's jobs:
-```
-GET https://api.peviitor.ro/v1/search/?q=*:*&rows=50&page=1
-```
-Then look for your company name and job URLs in the results.
+Look in `response.docs[]` for your job URLs, company name, and expected optional fields. See [13 — Testing and verification](13-testing-verification.md).
 
 ## Step 6: Commit and push
 
 ```bash
-git add scraper.py README.md
-git commit -m "Initial scraper for My Company"
-git push
+git add README.md scraper.py requirements.txt .gitignore
+git commit -m "Initial scraper for Example Company"
+git push -u origin main
 ```
+
+Create the remote repo first if needed; see [14 — Git workflow](14-git-workflow.md).
 
 ## Step 7: Maintain
 
-- Re-run the scraper periodically (weekly or monthly).
-- Fix it when the company's career page changes.
-- Fix it if peviitor API changes.
+- Re-run the scraper periodically, for example weekly or monthly.
+- Fix it when the company's careers page changes.
+- Fix it if the peviitor API changes.
 
 ## Getting stuck?
 
