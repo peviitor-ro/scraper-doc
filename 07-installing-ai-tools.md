@@ -55,3 +55,4 @@ AI is a helper, not a replacement for your judgment. See [13 — Testing and ver
 2. Ask the AI to explain any error before trying to fix it.
 3. Keep new scrapers in their own git repo (see [08](08-scraper-architecture.md)).
 4. Commit often with clear messages (see [14](14-git-workflow.md)).
+5. If the docs are unclear, open a [GitHub Issue](https://github.com/peviitor-ro/scraper-doc/issues/new/choose) and ask. Answers are added back to the docs.

@@ -38,6 +38,14 @@ Corrections and improvements are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 Repo policies: [Code of Conduct](CODE_OF_CONDUCT.md) · [Security Policy](SECURITY.md) · [Changelog](CHANGELOG.md)
 
+## Questions?
+
+If anything is unclear, open a new [GitHub Issue](https://github.com/peviitor-ro/scraper-doc/issues/new/choose) and ask. All questions are welcome — the more we collect, the clearer these guidelines become.
+
+Include the doc or step you are following, what you expected, and what happened. Maintainers will answer in the issue and fold the answer back into the relevant Markdown file so the documentation stays accurate.
+
+For security issues or anything involving private data, follow [SECURITY.md](SECURITY.md) instead of opening a public issue.
+
 ## Maintainers and contact
 
 - Website: [oportunitatisicariere.ro](https://oportunitatisicariere.ro)

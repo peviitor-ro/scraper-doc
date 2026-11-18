@@ -89,3 +89,5 @@ Ask your AI assistant:
 > "My scraper got error [error message] when pushing to peviitor. Here is my code: [...]. How do I fix it?"
 
 Or ask your coordinator.
+
+If the documentation itself is unclear, open a new [GitHub Issue](https://github.com/peviitor-ro/scraper-doc/issues/new/choose). Include the step number and the exact error or confusing wording. The answer will be added to the relevant doc so the next volunteer has it.

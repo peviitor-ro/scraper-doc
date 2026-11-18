@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Added
+
+- GitHub question issue template and guidance for asking questions; answers will be folded back into the docs.
+
 ### Changed
 
 - Clarified that new and active scrapers belong in the `peviitor-scrapers` organization, with one repo per scraper, so maintainers can take over when volunteers leave.

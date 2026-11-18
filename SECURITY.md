@@ -10,7 +10,7 @@ Only the `main` branch is maintained. Please make sure you are reading the lates
 
 ## Reporting a vulnerability
 
-Please **do not** open a public issue for a security problem.
+Please **do not** open a public issue for a security problem. If you are unsure whether your question is sensitive, use one of the private channels below.
 
 Report it privately instead:
 
