@@ -22,7 +22,7 @@ For new work, we recommend **one scraper per repository**. Every career page is 
 
 ## Who this is for
 
-This documentation is written for volunteers at **Asociația Oportunități și Cariere (AOC)** who want to learn:
+This documentation is written for volunteers at [**Asociația Oportunități și Cariere (AOC)**](https://oportunitatisicariere.ro) who want to learn:
 
 - How web scrapers work.
 - How to build one from scratch.
