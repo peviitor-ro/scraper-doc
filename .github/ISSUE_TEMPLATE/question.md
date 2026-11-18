@@ -21,7 +21,7 @@ assignees: ''
 
 ## Error or confusing text
 
-<!-- Paste the exact error message or the wording that was unclear. Remove secrets and personal data. -->
+<!-- Paste the exact error message or the wording that was unclear. Remove full names, secrets, and personal data. -->
 
 ## Environment (optional)
 
@@ -30,6 +30,6 @@ assignees: ''
 
 ## Note
 
-Do not include API keys, tokens, passwords, CVs, candidate data, or other personal data. For security or private matters, use [SECURITY.md](../../SECURITY.md) instead of a public issue.
+Do not include full names, API keys, tokens, passwords, CVs, candidate data, or other personal data. For security or private matters, use [SECURITY.md](../../SECURITY.md) instead of a public issue.
 
 Maintainers will answer here and add the answer to the relevant Markdown file so the guidelines stay accurate. See [19 — Questions and answers](../../19-questions-and-answers.md).

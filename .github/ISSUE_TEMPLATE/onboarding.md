@@ -8,12 +8,13 @@ assignees: ''
 
 ## New team member
 
-- [ ] Add your Discord ID: <!-- @name or numeric ID -->
+<!-- Use handles only. Do not add full names. -->
+
+- [ ] Add your Discord ID: <!-- @handle or numeric ID -->
 - [ ] Add your GitHub user: @<!-- username -->
 
 ## Profile (optional)
 
-- Name or preferred handle:
 - Timezone / country:
 - Languages or tech stack you are comfortable with:
 - First scraper or company you want to work on:
@@ -35,6 +36,6 @@ assignees: ''
 
 ## Notes
 
-<!-- Anything else the team should know. Do not include passwords, tokens, CVs, or personal data. -->
+<!-- Anything else the team should know. Do not include full names, passwords, tokens, CVs, or personal data. -->
 
 For private or security matters, use [SECURITY.md](../../SECURITY.md).

@@ -9,10 +9,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Added
 
 - `19-questions-and-answers.md`, a GitHub question issue template, and guidance for asking questions; answers will be folded back into the docs.
-- GitHub onboarding issue template for new team members (GitHub user and Discord ID).
+- GitHub onboarding issue template for new team members (GitHub user and Discord ID only, no full names).
 
 ### Changed
 
+- Explicitly excluded full names from the onboarding and question issue templates for GDPR reasons.
 - Clarified that new and active scrapers belong in the `peviitor-scrapers` organization, with one repo per scraper, so maintainers can take over when volunteers leave.
 - Made the architecture in `08` language-agnostic: the same structure applies to TypeScript, PHP, JavaScript, C, Rust, and other languages.
 
