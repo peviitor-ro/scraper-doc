@@ -43,8 +43,6 @@ By following this documentation you will:
 
 ## Questions?
 
-If something is unclear, open a new [GitHub Issue](https://github.com/peviitor-ro/scraper-doc/issues/new/choose) and ask. We encourage as many questions as possible: each answer makes this documentation clearer. Maintainers will answer in the issue and update the relevant Markdown file.
-
-For security or private matters, use [SECURITY.md](SECURITY.md) instead of a public issue.
+Ask anything in a [GitHub Issue](https://github.com/peviitor-ro/scraper-doc/issues/new/choose); answers are added back to the relevant docs. See [19 — Questions and answers](19-questions-and-answers.md). For security or private matters, use [SECURITY.md](SECURITY.md).
 
 Start with [01 — The story](01-the-story.md), or open the [full index](README.md).

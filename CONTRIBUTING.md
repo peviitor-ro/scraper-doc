@@ -22,9 +22,7 @@ Thanks for improving the peviitor scraper documentation.
 
 ## Questions and clarifications
 
-If a rule, command, or example is unclear, open a new [GitHub Issue](https://github.com/peviitor-ro/scraper-doc/issues/new/choose). Ask as many questions as needed: every answer makes these guidelines clearer.
-
-Maintainers answer in the issue and then update the relevant Markdown file. For private or security matters, use [SECURITY.md](SECURITY.md) instead.
+Ask as many questions as needed in a [GitHub Issue](https://github.com/peviitor-ro/scraper-doc/issues/new/choose). Maintainers answer in the issue and update the relevant Markdown file. See [19 — Questions and answers](19-questions-and-answers.md) for the full process. For private or security matters, use [SECURITY.md](SECURITY.md).
 
 ## Quick links
 
@@ -36,3 +34,4 @@ Maintainers answer in the issue and then update the relevant Markdown file. For 
 - [Best practices](15-best-practices.md)
 - [Scraper examples](17-scraper-examples.md)
 - [Scraper repository components](18-scraper-components.md)
+- [Questions and answers](19-questions-and-answers.md)

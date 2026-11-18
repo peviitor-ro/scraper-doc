@@ -29,6 +29,7 @@ New scrapers belong in the [peviitor-scrapers](https://github.com/peviitor-scrap
 | 16 | [GDPR and data minimization](16-gdpr-data-minimization.md) |
 | 17 | [Scraper examples](17-scraper-examples.md) |
 | 18 | [Components of a scraper repository](18-scraper-components.md) |
+| 19 | [Questions and answers](19-questions-and-answers.md) |
 
 If you are in a hurry, read [00 — Introduction](00-introduction.md), [02 — Data model](02-data-model.md), [09 — Source of truth](09-source-of-truth.md), [13 — Testing and verification](13-testing-verification.md), and [16 — GDPR](16-gdpr-data-minimization.md).
 
@@ -40,9 +41,7 @@ Repo policies: [Code of Conduct](CODE_OF_CONDUCT.md) · [Security Policy](SECURI
 
 ## Questions?
 
-If anything is unclear, open a new [GitHub Issue](https://github.com/peviitor-ro/scraper-doc/issues/new/choose) and ask. All questions are welcome — the more we collect, the clearer these guidelines become.
-
-Include the doc or step you are following, what you expected, and what happened. Maintainers will answer in the issue and fold the answer back into the relevant Markdown file so the documentation stays accurate.
+Ask anything in a [GitHub Issue](https://github.com/peviitor-ro/scraper-doc/issues/new/choose). We encourage as many questions as possible; answers are added back to the docs. See [19 — Questions and answers](19-questions-and-answers.md) for the full process.
 
 For security issues or anything involving private data, follow [SECURITY.md](SECURITY.md) instead of opening a public issue.
 
