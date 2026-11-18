@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Changed
+
+- Clarified that new and active scrapers belong in the `peviitor-scrapers` organization, with one repo per scraper, so maintainers can take over when volunteers leave.
+- Made the architecture in `08` language-agnostic: the same structure applies to TypeScript, PHP, JavaScript, C, Rust, and other languages.
+
 ## [2026-11-18]
 
 ### Added

@@ -4,6 +4,8 @@ Documentation for volunteers building [peviitor.ro](https://peviitor.ro) company
 
 Peviitor aggregates open positions from company career pages so job seekers can find them in one place. This repo explains the job and company data models, how to look up a company's CIF/CUI, how to upload jobs to the [peviitor API](https://github.com/peviitor-ro/api), how to verify the result, and how to keep scrapers GDPR-friendly.
 
+New scrapers belong in the [peviitor-scrapers](https://github.com/peviitor-scrapers) organization so the team can maintain them even if a volunteer steps away.
+
 ## Documentation index
 
 | # | Topic |
@@ -48,7 +50,7 @@ For questions or corrections, open an issue in this repository.
 
 - [peviitor_core](https://github.com/peviitor-ro/peviitor_core#job-model-schema) — job and company schemas
 - [api.peviitor.ro source](https://github.com/peviitor-ro/api) — API implementation and OpenAPI spec
-- [peviitor-scrapers](https://github.com/peviitor-scrapers) — reference scrapers
+- [peviitor-scrapers](https://github.com/peviitor-scrapers) — canonical organization for scraper repositories
 
 ## License
 

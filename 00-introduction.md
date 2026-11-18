@@ -16,9 +16,11 @@ A scraper is a small program that:
 2. Validates and normalizes the data (title, company, CIF/CUI, location, URL, etc.).
 3. Pushes the jobs to peviitor.ro via the [peviitor API](https://github.com/peviitor-ro/api).
 
-## The convention: one scraper = one repo
+## Where scrapers live
 
-For new work, we recommend **one scraper per repository**. Every career page is built differently and scrapers break independently, so separate repos are easier to own, fix, and maintain. Some older organization repos group multiple scrapers; those are historical. See [08 — Scraper architecture](08-scraper-architecture.md) for details.
+New scrapers are created in the [**peviitor-scrapers**](https://github.com/peviitor-scrapers) organization, not in personal accounts. The goal is to keep every active scraper organization-owned so anyone in the team can maintain it if a volunteer steps away.
+
+For new work, we also recommend **one scraper per repository**. Every career page is built differently and scrapers break independently, so separate repos are easier to fix, test, and maintain. Some older repos live in personal accounts or group multiple scrapers; those are historical. See [08 — Scraper architecture](08-scraper-architecture.md) and [14 — Git workflow](14-git-workflow.md).
 
 ## Who this is for
 
@@ -37,6 +39,6 @@ By following this documentation you will:
 - Know where to look up a company's CIF/CUI ([cuiscan.ro](https://cuiscan.ro), [cuifirma.ro](https://cuifirma.ro), and [09](09-source-of-truth.md)).
 - Build a scraper that pushes jobs to [api.peviitor.ro](https://api.peviitor.ro).
 - Verify that your pushed jobs actually appear in peviitor search ([13](13-testing-verification.md)).
-- Manage your scraper in its own git repository ([14](14-git-workflow.md)).
+- Manage your scraper in the peviitor-scrapers organization, with one repo per scraper ([14](14-git-workflow.md)).
 
 Start with [01 — The story](01-the-story.md), or open the [full index](README.md).

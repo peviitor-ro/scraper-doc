@@ -39,6 +39,7 @@ Learn from mistakes others have made. Keep this list handy while building your s
 | No audit trail | Cannot prove what was uploaded | Append accepted URLs to `data/uploaded_urls.txt` |
 | Not verifying after push | You don't know if jobs actually appeared | Search the API after every push; see [13](13-testing-verification.md) |
 | Multiple new scrapers in one repo | Harder to assign ownership and isolate failures | Prefer one scraper per repo for new work |
+| Scraper in a personal repo | Hard to maintain if the volunteer leaves | Create new scrapers in [peviitor-scrapers](https://github.com/peviitor-scrapers); transfer active ones to the org |
 
 ## AI usage
 
@@ -58,7 +59,7 @@ Learn from mistakes others have made. Keep this list handy while building your s
 
 ## Golden rules
 
-1. **For new scrapers, one scraper per repo.**
+1. **For new scrapers, create one repo per scraper in [peviitor-scrapers](https://github.com/peviitor-scrapers).**
 2. **Company should exist in peviitor core, with verified CIF/CUI and legal name, before pushing jobs.**
 3. **URL must point to the real employer job page — no tracking params and no unescaped `&`.**
 4. **Verify after every push — search peviitor to confirm your jobs are there.**

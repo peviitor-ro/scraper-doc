@@ -18,10 +18,15 @@ Thanks for improving the peviitor scraper documentation.
 - Use clearly fictional company names and CUI values in examples, or verify real ones before publishing.
 - Never commit API keys, tokens, passwords, CVs, candidate data, or other personal data.
 - Keep GDPR guidance aligned with [16 — GDPR and data minimization](16-gdpr-data-minimization.md).
+- When writing about new scrapers, point to [peviitor-scrapers](https://github.com/peviitor-scrapers) as the repo location; personal repos are historical references only.
 
 ## Quick links
 
 - [Documentation index](README.md)
 - [Data model](02-data-model.md)
 - [Company model](04-company-model.md)
+- [Scraper architecture](08-scraper-architecture.md)
+- [Git workflow](14-git-workflow.md)
 - [Best practices](15-best-practices.md)
+- [Scraper examples](17-scraper-examples.md)
+- [Scraper repository components](18-scraper-components.md)

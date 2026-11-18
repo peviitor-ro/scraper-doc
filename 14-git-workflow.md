@@ -1,6 +1,6 @@
 # 14 — Git Workflow
 
-For new work, each company scraper lives in its own git repository. This keeps scrapers independent and easy to maintain. Older multi-scraper repos still exist; they are historical and are not the model for new scrapers. See [08 — Scraper architecture](08-scraper-architecture.md).
+For new work, each company scraper lives in its own git repository inside the [peviitor-scrapers](https://github.com/peviitor-scrapers) organization. Organization-owned repos keep scrapers maintainable when volunteers move on. Older multi-scraper or personal repos still exist; they are historical and are not the model for new scrapers. See [08 — Scraper architecture](08-scraper-architecture.md).
 
 ## Creating a new scraper repo
 
@@ -21,8 +21,8 @@ echo "__pycache__/" >> .gitignore
 git add .
 git commit -m "Initial scraper structure for <Company Name>"
 
-# 5. Push to your remote (GitHub, GitLab, etc.)
-git remote add origin <your-repo-url>
+# 5. Create the empty repo in peviitor-scrapers, then push to it
+git remote add origin https://github.com/peviitor-scrapers/<company-name>-scraper.git
 git push -u origin main
 ```
 
@@ -63,10 +63,10 @@ Avoid vague messages like `fix` or `update`.
 When a new volunteer joins:
 
 1. Assign them one company.
-2. They create, or are given, one repo for that scraper.
-3. They own it: build, test, push, and maintain.
+2. Create one repo for that scraper in [peviitor-scrapers](https://github.com/peviitor-scrapers).
+3. They maintain it: build, test, push, verify, and fix it when the careers page changes.
 
-If a volunteer leaves, the repo remains with the scraper code and history.
+The organization keeps the repo. If a volunteer leaves, the code, history, issues, and audit trail stay available and another maintainer can take over. Avoid personal repos for new scrapers.
 
 ## New work: prefer one repo per scraper
 

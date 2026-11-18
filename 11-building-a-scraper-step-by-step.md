@@ -9,15 +9,18 @@ This is a practical tutorial for volunteers. Follow these steps to build your fi
 - The company's CIF/CUI and legal name from [cuiscan.ro](https://cuiscan.ro) or [cuifirma.ro](https://cuifirma.ro).
 - An AI assistant such as [opencode.ai](https://opencode.ai) or [kilo.ai](https://kilo.ai), if you want help writing code.
 
-Replace `~/scrapers` below with whatever local folder you use for projects.
+Local folder names are up to you; the remote repo must be in [peviitor-scrapers](https://github.com/peviitor-scrapers).
 
 ## Step 1: Create the repository
 
+Create an empty repo in the organization named `my-company-scraper`, then clone it locally:
+
 ```bash
-mkdir -p ~/scrapers/my-company-scraper
-cd ~/scrapers/my-company-scraper
-git init
+git clone https://github.com/peviitor-scrapers/my-company-scraper.git
+cd my-company-scraper
 ```
+
+If you start locally first, push to the organization repo as soon as the scraper is ready. Do not leave new scrapers in personal accounts.
 
 Create `README.md` with one line describing what the scraper does.
 
@@ -70,13 +73,14 @@ git commit -m "Initial scraper for Example Company"
 git push -u origin main
 ```
 
-Create the remote repo first if needed; see [14 — Git workflow](14-git-workflow.md).
+Create the remote repo first in peviitor-scrapers if needed; see [14 — Git workflow](14-git-workflow.md).
 
 ## Step 7: Maintain
 
 - Re-run the scraper periodically, for example weekly or monthly.
 - Fix it when the company's careers page changes.
 - Fix it if the peviitor API changes.
+- Keep the repo in peviitor-scrapers so someone else can take over if you step away.
 
 ## Getting stuck?
 

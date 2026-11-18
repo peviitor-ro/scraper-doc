@@ -2,6 +2,8 @@
 
 Based on the [peviitor-scrapers organization README](https://github.com/peviitor-scrapers/.github/blob/main/profile/README.md) and the [EPAM Node.js reference scraper](https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper).
 
+New scrapers should be created in the [peviitor-scrapers](https://github.com/peviitor-scrapers) organization. The EPAM repo is linked as a technical reference; it is not the ownership model for new work.
+
 A scraper repository has four main parts: **code**, **testing**, **automation**, and **presentation/documentation**.
 
 ## Root files
@@ -74,7 +76,7 @@ Workflows in `.github/workflows/` run the scraper and its checks:
 
 ## Repository About section
 
-The GitHub About section should contain:
+Create the repo in [peviitor-scrapers](https://github.com/peviitor-scrapers). The GitHub About section should contain:
 
 - A short project description.
 - A link to the scraper presentation page.
