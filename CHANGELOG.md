@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Added
 
 - `19-questions-and-answers.md`, a GitHub question issue template, and guidance for asking questions; answers will be folded back into the docs.
+- GitHub onboarding issue template for new team members (GitHub user and Discord ID).
 
 ### Changed
 

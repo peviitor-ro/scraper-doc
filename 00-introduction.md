@@ -45,4 +45,6 @@ By following this documentation you will:
 
 Ask anything in a [GitHub Issue](https://github.com/peviitor-ro/scraper-doc/issues/new/choose); answers are added back to the relevant docs. See [19 — Questions and answers](19-questions-and-answers.md). For security or private matters, use [SECURITY.md](SECURITY.md).
 
+Just joined? Open an [onboarding issue](https://github.com/peviitor-ro/scraper-doc/issues/new?template=onboarding.md) with your GitHub user and Discord ID.
+
 Start with [01 — The story](01-the-story.md), or open the [full index](README.md).

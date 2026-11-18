@@ -37,6 +37,8 @@ If you are in a hurry, read [00 — Introduction](00-introduction.md), [02 — D
 
 Corrections and improvements are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
+New team member? Open an [onboarding issue](https://github.com/peviitor-ro/scraper-doc/issues/new?template=onboarding.md) with your GitHub user and Discord ID.
+
 Repo policies: [Code of Conduct](CODE_OF_CONDUCT.md) · [Security Policy](SECURITY.md) · [Changelog](CHANGELOG.md)
 
 ## Questions?

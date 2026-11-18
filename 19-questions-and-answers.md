@@ -25,6 +25,7 @@ The [question issue template](https://github.com/peviitor-ro/scraper-doc/issues/
 ## Where to ask
 
 - [Open a new question issue](https://github.com/peviitor-ro/scraper-doc/issues/new/choose)
+- [Onboard a new team member](https://github.com/peviitor-ro/scraper-doc/issues/new?template=onboarding.md)
 - [See all issues](https://github.com/peviitor-ro/scraper-doc/issues)
 
 ## Private and security matters

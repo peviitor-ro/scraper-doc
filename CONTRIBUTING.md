@@ -20,6 +20,10 @@ Thanks for improving the peviitor scraper documentation.
 - Keep GDPR guidance aligned with [16 — GDPR and data minimization](16-gdpr-data-minimization.md).
 - When writing about new scrapers, point to [peviitor-scrapers](https://github.com/peviitor-scrapers) as the repo location; personal repos are historical references only.
 
+## Joining the team
+
+New volunteers open an [onboarding issue](https://github.com/peviitor-ro/scraper-doc/issues/new?template=onboarding.md) with their GitHub user and Discord ID. Maintainers use it to grant access and point the new member to the first docs to read.
+
 ## Questions and clarifications
 
 Ask as many questions as needed in a [GitHub Issue](https://github.com/peviitor-ro/scraper-doc/issues/new/choose). Maintainers answer in the issue and update the relevant Markdown file. See [19 — Questions and answers](19-questions-and-answers.md) for the full process. For private or security matters, use [SECURITY.md](SECURITY.md).
